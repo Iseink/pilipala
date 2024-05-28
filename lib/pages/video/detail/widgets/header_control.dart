@@ -1067,7 +1067,7 @@ class _HeaderControlState extends State<HeaderControl> {
                       ),
                       child: Slider(
                         min: 1,
-                        max: 6,
+                        max: 10,
                         value: sqrt(danmakuDurationVal),
                         divisions: 50,
                         label: danmakuDurationVal.toString(),
